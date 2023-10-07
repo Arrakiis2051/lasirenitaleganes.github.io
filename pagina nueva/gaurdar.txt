@@ -1,0 +1,73 @@
+  .abrir-menu
+    
+    {
+        display: block;
+        border: 0;
+        font-size: 1.25rem;
+        background-color: aliceblue;
+        cursor: pointer;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+        width: 50px;
+        height: 60px;
+    }
+.cerrar-menu{
+    display: block;
+        border: 0;
+        font-size: 1.25rem;
+        background-color: aliceblue;
+        cursor: pointer;
+        width: 50px;
+        height: 60px;
+}
+    
+
+    .nav{
+        opacity: 0;
+        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: 1rem;
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 300px;
+        line-height: 30px;
+        background-color: aliceblue;
+        padding: 2rem;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+    }
+    .nav.visible{
+        opacity: 1;
+        visibility: visible;
+    }
+    .nav-list{
+        flex-direction: column;
+        align-items: end;
+       
+    }
+    .nav-list li a{
+        color: rgb(0, 0, 0);
+        margin-top: 30px;
+    }
+
+     <div class="titulo1">
+        <h2 class="titulo">La Sirenita
+          
+        </h2>
+
+  
+    </div>
+     <div class="texto_secundario">
+        <div class="secudario">
+            <p class="sub">
+                Nuestras proximas fiestas
+            </p>
+            <h6 class="h6">
+                   <div></div>
+            </h6>
+
+        </div>
+
+
+    </div>
